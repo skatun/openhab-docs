@@ -66,6 +66,7 @@ itemtype itemname "labeltext [stateformat]" <iconname> (group1, group2, ...) ["t
 - All other fields are optional
 - Fields may be separated by one or more spaces, or tabs
 - An Item definition may span multiple lines
+- The order of elements is critical, misplacing the order will most lilkely lead to misbehaviours of OpenHab and errors(i.e Group can not be defined befor the label for instance)
 
 **Examples:**
 
